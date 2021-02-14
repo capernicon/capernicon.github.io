@@ -1,0 +1,85 @@
+body {
+	min-height: 100vh;
+}
+
+main {
+	min-height: 1000px;
+	height: auto;
+}
+
+/* top container */
+.top {
+	padding: 5rem 0 10rem 0;
+	background-image: linear-gradient(to bottom, #424242, #757575);
+}
+
+header {
+	background-color: #424242;
+}
+
+header .links_row {
+	margin-bottom: -20px;
+}
+
+#links_container {
+	font-size: 1.5rem;
+	float: left;
+	width: 30px;
+	height: auto;
+	margin-top: 5px;
+}
+
+.title {
+	color: #fafafa;
+	margin-right: 5px;
+}
+
+.border_left {
+	border-left: thick solid #aed581;
+}
+
+.border_left p {
+	padding-left: 10px;
+}
+
+
+/* bottom container */
+.bottom {
+	padding: 1.5rem;
+	background-color: #fff;
+}
+
+p.about_me_paragraph {
+	font-size: 1.1rem;
+	color: #757575;
+}
+
+.card-title {
+	font-weight: 700;
+}
+
+.card-title,
+.card-content p {
+	color: #424242;
+}
+
+p.card-description {
+	padding-bottom: 7.5px;
+}
+
+/* devicon icon size */
+.card-technologies {
+	font-size: 2.4rem;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
